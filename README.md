@@ -10,7 +10,7 @@ Faça sua escolha e tente vencer Gary! Ele irá escolher aleatoriamente entre Bu
 - Água vence fogo;
 - Planta vence água.
 
-*It's a rock, paper, scissors game, but with the initials from Gen I of Pokémon! Make your choice and yry to beat Gary! He will choose randomly between Bulbasaur, Charmander and Squirtle. Remember:*
+*It's a rock, paper, scissors game, but with the initials from Gen I of Pokémon! Make your choice and try to beat Gary! He will choose randomly between Bulbasaur, Charmander and Squirtle. Remember:*
 *- Fire beats plant;*
 *- Water beats fire;*
 *- Plant beats water;*

@@ -60,6 +60,17 @@ function jogar() {
     elementoEscolhaGary.innerHTML =
       '<img src="./assets/007.png" style="width:60px;height:60px" alt="Imagem do Squirtle">';
   }
+
+  let restartButton = document.querySelector(".button");
+  restartButton.addEventListener("click", restartAnimation, false);
+
+  function restartAnimation(event) {
+    let escolhaGary = document.querySelector("#escolhaGary");
+    escolhaGary.style.animationName = "none";
+    requestAnimationFrame(() => {
+      escolhaGary.style.animationName = "";
+    });
+  }
 }
 
 function sortearPokemon() {

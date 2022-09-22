@@ -120,7 +120,9 @@ main section:nth-child(1) h2 {
   
 #escolhaGary {
     animation: fromLeft 4s 2s backwards;
-    animation-delay: 2s;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
 }
   
 @keyframes fromLeft {

@@ -15,7 +15,7 @@ Faça sua escolha e tente vencer Gary! Ele irá escolher aleatoriamente entre Bu
 *- Water beats fire;*
 *- Plant beats water;*
 
-[Clique aqui para acessar](https://matazzo.github.io/)
+[Clique aqui para acessar](https://matazzo.github.io/PokemonGaryGame)
 
 ## Tecnologias
 

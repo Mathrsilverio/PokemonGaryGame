@@ -1,0 +1,136 @@
+* {
+    font-family: "Quantico", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+  
+body {
+    background-color: #bcfffe;
+    background-image: url("./assets/Background.png");
+    background-position: center bottom;
+    background-size: 100%;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    line-height: 160%;
+}
+  
+header {
+    text-align: center;
+    margin-top: 27px;
+    margin-bottom: 24px;
+}
+  
+  header div img {
+    width: 45%;
+    position: relative;
+}
+  
+header p {
+    color: #f0c305;
+    font-size: 24px;
+    text-align: center;
+    text-shadow: 2px 0 #36b, -2px 0 #36b, 0 2px #36b, 0 -2px #36b, 1px 1px #36b,
+      -1px -1px #36b, 1px -1px #36b, -1px 1px #36b;
+}
+  
+main {
+    text-align: center;
+    max-width: 300px;
+    margin-top: 27px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 24px;
+}
+  
+.imagemGary {
+    width: 50%;
+}
+  
+main section:nth-child(1) h2 {
+    margin-top: 12px;
+    color: #f0c305;
+    font-size: 24px;
+    text-align: center;
+    text-shadow: 2px 0 #36b, -2px 0 #36b, 0 2px #36b, 0 -2px #36b, 1px 1px #36b,
+      -1px -1px #36b, 1px -1px #36b, -1px 1px #36b;
+}
+  
+.bulbasaur {
+    border-style: solid;
+    border-color: #ffffff;
+    outline-style: solid;
+    outline-color: #3366bb;
+    margin-left: 12px;
+}
+  
+.charmander {
+    border-style: solid;
+    border-color: #ffffff;
+    outline-style: solid;
+    outline-color: #3366bb;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+  
+.squirtle {
+    border-style: solid;
+    border-color: #ffffff;
+    outline-style: solid;
+    outline-color: #3366bb;
+    margin-right: 12px;
+}
+  
+.opcoes {
+    color: #f0c305;
+    font-size: 12px;
+    text-align: center;
+    text-shadow: 2px 0 #36b, -2px 0 #36b, 0 2px #36b, 0 -2px #36b, 1px 1px #36b,
+      -1px -1px #36b, 1px -1px #36b, -1px 1px #36b;
+}
+  
+.button {
+    margin-top: 12px;
+    margin-bottom: 6px;
+}
+  
+.pokebolas {
+    margin-top: 6px;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}
+  
+.gary {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 52px;
+    justify-content: center;
+    gap: 20px;
+}
+  
+#resultado {
+    margin-bottom: 6px;
+    color: #f0c305;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 2px 0 #36b, -2px 0 #36b, 0 2px #36b, 0 -2px #36b, 1px 1px #36b,
+      -1px -1px #36b, 1px -1px #36b, -1px 1px #36b;
+}
+  
+#escolhaGary {
+    animation: fromLeft 4s 2s backwards;
+    animation-delay: 2s;
+}
+  
+@keyframes fromLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+}  

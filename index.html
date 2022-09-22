@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quantico:wght@700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Pokémon Gary's Challenge</title>
+    </head>
+
+    <body>
+        <header>
+            <div>
+                <img src="./assets/logo-pokemon.png" alt="Pokemon logo">
+            </div><br>
+            <p>O DESAFIO DE GARY</p>
+        </header><br>
+        <main>
+            <section>
+                <h2>Escolher Pokémon</h2><br>
+                <div class="opcoes" id="opcoes">
+                    <img src="./assets/Bulbasaur.jpg" class="bulbasaur" style="width:60px;height:60px" alt="Imagem do Bulbasaur">
+                    <img src="./assets/Charmander.jpg " class="charmander" style="width:60px;height:60px" alt="Imagem do Charmander">
+                    <img src="./assets/Squirtle.jpg" class="squirtle" style="width:60px;height:60px" alt="Imagem do Squirtle"><br>
+                    <input type='radio' name='escolha' value="Bulbasaur">Bulbasauro</input>
+                    <input type='radio' name='escolha' value="Charmander">Charmander</input>
+                    <input type='radio' name='escolha' value="Squirtle">Squirtle</input><br>
+                </div>
+                <div class="pokebolas">
+                    <img src="./assets/pokeball.png" style="width:50px;height:45px" alt="Imagem de uma Pokebola">
+                    <img src="./assets/pokeball.png" style="width:50px;height:45px" alt="Imagem de uma Pokebola">
+                    <img src="./assets/pokeball.png" style="width:50px;height:45px" alt="Imagem de uma Pokebola">
+                </div>
+                    <button class="button" id="btnJogar" onclick="jogar()" type="button">Jogar!</button>
+            </section><br>
+            <section>
+                <div id="resultado"></div>
+            </section><br>
+            <section class="gary">
+                <img src="./assets/Gary.png" class="imagemGary" alt="Imagem do Gary">
+                <div id="escolhaGary"></div>
+            </section>
+        </main>
+        <script src="script.js"></script>
+    </body>
+
+</html>
